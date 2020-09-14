@@ -37,7 +37,7 @@ h1 {
   background-color: rgba(0, 0, 0, 0.1);
   border-radius: 4px;
   border: 2px solid rgba(0, 0, 0, 0.3);
-  transition: 0.5s;
+  transition: 0.1s;
 }
 
 .load-quote:hover {
@@ -71,7 +71,7 @@ h1 {
 
 .quote:before,
 .quote:after {
-  font-size: 3rem;
+  font-size: 2rem;
   line-height: 2.5rem;
   position: absolute;
 }
@@ -86,7 +86,7 @@ h1 {
   content: "”";
   bottom: -0.1em;
   margin-left: 0.1em;
-  position: relative;
+  position: absolute;
 }
 
 .source {
